@@ -1,0 +1,46 @@
+@font-face {
+	font-family: "Five Fonts at Freddy's Regular";
+	src: url('fonts/five_fonts_at_freddys_regular.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/five_fonts_at_freddys_regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/five_fonts_at_freddys_regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/five_fonts_at_freddys_regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/five_fonts_at_freddys_regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/five_fonts_at_freddys_regular.svg#five_fonts_at_freddys_regular') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+:root{
+    --m-w: 1420px;
+    --m-l: 15%;
+    --h2_size: 20px;
+
+}
+html{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 0 0 0;
+}
+
+body{
+    background-color: black;
+    font-family: "Five Fonts at Freddy's Regular"; 
+    margin: 0 0 0 0;
+}
+header{
+    width: 100%;
+    
+}
+.logo{
+    display: flex;
+    color: yellow;
+    margin-left: var(--m-l);
+}
+.logo h2{
+    margin: 33px 0 0 0;
+    font-size: var(--h2_size);
+}
+.line{
+    width: 100%;
+    height: 5px;
+    background-color: yellow;
+}
