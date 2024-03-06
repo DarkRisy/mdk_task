@@ -113,7 +113,6 @@ header{
 
 }
 .block_2{
-    
     margin-left: var(--m-l);
 }
 .springtrap{
@@ -134,4 +133,33 @@ header{
 }
 .text_m{
     width: 450px;
+}
+
+.block_3{
+    margin-top: 108px;
+    margin-bottom: 108px;
+    margin-left: var(--m-l);
+}
+.bl_text{
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    padding: 0 0 10px 30px;
+    border-color: yellow;
+    border-width: 1px;
+    border-style: solid;
+    align-items: center;
+}
+.bl_text li{
+    list-style-type: decimal;
+    color: white;
+    font-family: "Five Fonts at Freddy's Regular"; 
+    font-size: 20px;
+}
+
+footer img{
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+    z-index: -1;
 }
