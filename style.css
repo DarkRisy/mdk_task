@@ -11,14 +11,28 @@
 :root{
     --m-w: 1420px;
     --m-l: 15%;
-    --h2_size: 20px;
+    --h1_size: 20px;
+    --h2_size: 15px;
 
+}
+h1{
+    font-size: 25px;
+    color: yellow;
+}
+h2{
+    font-size: 20px;
+    color: white;
+}
+p{
+    font-size: 15px;
+    color: #AAAAAA;
 }
 html{
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin: 0 0 0 0;
+
 }
 
 body{
@@ -35,12 +49,89 @@ header{
     color: yellow;
     margin-left: var(--m-l);
 }
-.logo h2{
-    margin: 33px 0 0 0;
-    font-size: var(--h2_size);
+.logo h1{
+    margin: 27px 0 0 0;
 }
 .line{
     width: 100%;
     height: 5px;
     background-color: yellow;
+}
+
+.block_1{
+    width: 1200px;
+    margin-left: var(--m-l);
+    display: flex;
+    justify-content: space-between;
+    color: yellow;
+}
+.text_1{
+    width: fit-content;
+    margin-top: 50px;
+}
+
+.prs{
+    float: right;
+}
+.content{
+    margin-top: 100px;
+}
+.content h1{
+    margin-bottom: 0;
+}
+.content ul{
+    margin: 0 0 0 0;
+    padding: 0 0 0 20px;
+}
+.content ul li{
+    padding-bottom: 20px;
+    color: white;
+    text-decoration: underline;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card button{
+    cursor: pointer;
+    display: flex;
+    /* margin-left: 55px; */
+    width: 320px;
+    height: 58px;
+    color: yellow;
+    font-weight: 50;
+    font-family: "Five Fonts at Freddy's Regular"; 
+    background-color: black;
+    border-color: yellow;
+    justify-content: center;
+    align-items: center;
+}
+.card h2{
+    color: white;
+    margin: 0 0 0 0;
+
+}
+.block_2{
+    
+    margin-left: var(--m-l);
+}
+.springtrap{
+    margin-top: 108px;
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.springtrap_img{
+    width: 500px;
+    height: 425px;
+    border-color: yellow;
+    margin: 25px 0 0 0;
+    border-width: 1px;
+    border-style: solid;
+}
+.text_m{
+    width: 450px;
 }
